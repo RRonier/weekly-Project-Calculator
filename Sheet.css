@@ -1,0 +1,88 @@
+body {
+    padding-top: 5em;
+
+}
+
+#container {
+    height: 400px;
+    width: 300px;
+    border: solid 1px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#screenContainer {
+    /* background-color: blue; */
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+#inputScreen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Geneva;
+}
+
+#selectList {
+    /* background-color: blanchedalmond; */
+    position: relative;
+    margin-top: 1.5em;
+}
+
+#mySelect {
+    display: inline;
+    margin-left: 15em;
+}
+
+#tableKeys {
+    margin-top: 0.em;
+    align-content: center;
+}
+
+#tableK {
+    align-content: center;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.digit:link {
+
+    text-decoration: none;
+    background-color: #559;
+    padding: 6px 24px;
+    border-radius: 3px;
+    font-size: 2em;
+    font-family: Georgia;
+}
+
+.operator:link {
+    text-decoration: none;
+    background-color: #221;
+    padding: 6px 24px;
+    border-radius: 3px;
+    font-size: 2em;
+    
+}
+
+#imag {
+    width: 70%;
+    height: 50px;
+    background-color:pink;
+    cursor: pointer;
+}
